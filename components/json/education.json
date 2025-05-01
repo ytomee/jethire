@@ -1,0 +1,11 @@
+[
+    { "name": "Sem escolaridade" },
+    { "name": "Ensino Básico" },
+    { "name": "Ensino Secundário" },
+    { "name": "Curso Técnico-Profissional" },
+    { "name": "Licenciatura" },
+    { "name": "Mestrado" },
+    { "name": "Doutoramento" },
+    { "name": "Pós-Doutoramento" }
+  ]
+  

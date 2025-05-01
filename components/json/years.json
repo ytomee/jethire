@@ -1,0 +1,13 @@
+[
+    {"name": "Sem experiência"},
+    {"name": "< 1 ano"},
+    {"name": "1 ano"},
+    {"name": "2 anos"},
+    {"name": "3 anos"},
+    {"name": "4 anos"},
+    {"name": "5 anos"},
+    {"name": "> 5 anos"},
+    {"name": "> 10 anos"},
+    {"name": "> 15 anos"},
+    {"name": "> 20 anos"}
+]

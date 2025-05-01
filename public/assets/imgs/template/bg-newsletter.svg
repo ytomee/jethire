@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1326"
+   height="372"
+   viewBox="0 0 1326 372"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="bg-newsletter.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.33852124"
+     inkscape:cx="449.01171"
+     inkscape:cy="115.20695"
+     inkscape:window-width="1536"
+     inkscape:window-height="449"
+     inkscape:window-x="0"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <defs
+     id="defs4" />
+  <g
+     id="g4">
+    <rect
+       width="1326"
+       height="372"
+       rx="16"
+       fill="#3C65F5"
+       id="rect1"
+       style="fill:#d40000" />
+    <rect
+       x="1003"
+       y="-76.5244"
+       width="331"
+       height="400.61"
+       rx="48"
+       transform="rotate(-22.6514 1003 -76.5244)"
+       fill="#587AF3"
+       id="rect2"
+       style="fill:#ef3e3e" />
+    <rect
+       x="-152"
+       y="128.917"
+       width="223.088"
+       height="223.617"
+       rx="48"
+       transform="rotate(-22.6514 -152 128.917)"
+       fill="#587AF3"
+       id="rect3"
+       style="fill:#ef3e3e" />
+    <rect
+       x="372"
+       y="358.601"
+       width="152.162"
+       height="152.523"
+       rx="48"
+       transform="rotate(-22.6514 372 358.601)"
+       fill="#587AF3"
+       id="rect4"
+       style="fill:#ef3e3e" />
+  </g>
+</svg>
