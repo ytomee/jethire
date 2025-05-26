@@ -2652,7 +2652,6 @@ label {
   border-radius: 16px;
   border: 1px solid var(--neutral-300);
   background: #ffffff;
-  min-height: 430px;
   overflow: hidden;
   padding: 15px;
 }
