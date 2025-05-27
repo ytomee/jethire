@@ -6461,7 +6461,7 @@ ul li:last-child .card-list-4 {
   z-index: 1;
   height: 100%;
   width: 100%;
-  background: url(../imgs/page/about/bg-black-trans.png) repeat-x bottom left;
+  background: linear-gradient(to top, rgba(43, 0, 0, 0.801), transparent);
 }
 .bg-img-about h2, .bg-img-about p {
   color: #ffffff;

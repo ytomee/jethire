@@ -1,34 +1,37 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import Link from "next/link";
 import Layout from "../components/Layout/Layout";
 import Sidebar from "../components/elements/companies-grid/Sidebar";
-import Company from "../components/elements/companies-grid/Company";
 import CompanyForm from "../components/elements/companies-grid/CompanyForm";
 import ValidRequest from "../components/elements/companies-grid/ValidRequest";
+import CompanyList from "../components/elements/companies-grid/CompanyList";
 
-export default function CompaniesGrid() {
+import connectMongoDB from "/lib/mongodb";
+import Company from "/models/company";
+
+export default function CompaniesGrid({ companies }) {
     const [showForm, setShowForm] = useState(false);
     const [showValidRequest, setShowValidRequest] = useState(false);
 
     useEffect(() => {
-    if (showForm) {
-        document.body.style.overflow = 'hidden';
-    } else {
-        document.body.style.overflow = 'auto';
-    }
-    return () => {
-        document.body.style.overflow = 'auto';
-    };
+        if (showForm) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
     }, [showForm]);
 
     return (
-        <> 
+        <>
             <AnimatePresence>
                 {showForm && <CompanyForm setShowForm={setShowForm} setShowValidRequest={setShowValidRequest} />}
                 {showValidRequest && <ValidRequest setShowValidRequest={setShowValidRequest} />}
             </AnimatePresence>
+
             <Layout>
                 <div>
                     <section className="section-box-2">
@@ -36,15 +39,14 @@ export default function CompaniesGrid() {
                             <div className="banner-hero banner-single banner-single-bg">
                                 <div className="block-banner text-center">
                                     <h3 className="wow animate__animated animate__fadeInUp">
-                                        <span className="job-list-number"> 4 </span> empresas disponíveis
+                                        <span className="job-list-number">{companies?.length || 0}</span> empresas disponíveis
                                     </h3>
                                     <div className="font-sm color-text-paragraph-2 mt-10 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellendus magni, <br className="d-none d-xl-block" />
-                                        atque delectus molestias quis?
+                                        Explore empresas registadas na nossa plataforma.
                                     </div>
                                     <div className="form-find text-start mt-40 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
                                         <form>
-                                            <input className="form-input input-keysearch mr-10" type="text" placeholder="Palavras-chave... " />
+                                            <input className="form-input input-keysearch mr-10" type="text" placeholder="Palavras-chave..." />
                                             <button className="btn btn-default btn-find font-sm">Procurar</button>
                                         </form>
                                     </div>
@@ -62,42 +64,14 @@ export default function CompaniesGrid() {
                                             <div className="row">
                                                 <div className="col-xl-6 col-lg-5">
                                                     <span className="text-small text-showing">
-                                                        A mostrar <strong>41-60 </strong>de <strong>944 </strong>empresas
+                                                        A mostrar <strong>1-{companies.length}</strong> de <strong>{companies.length}</strong> empresas
                                                     </span>
-                                                </div>
-                                                <div className="col-xl-6 col-lg-7 text-lg-end mt-sm-15">
-                                                    <div className="display-flex2">
-                                                        <div className="box-border">
-                                                            <span className="text-sortby">Ordenar por:</span>
-                                                            <div className="dropdown dropdown-sort">
-                                                                <button className="btn dropdown-toggle" id="dropdownSort2" type="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
-                                                                    <span>Qualificação</span>
-                                                                    <i className="fi-rr-angle-small-down" />
-                                                                </button>
-                                                                <ul className="dropdown-menu dropdown-menu-light" aria-labelledby="dropdownSort2">
-                                                                    <li>
-                                                                        <Link legacyBehavior href="#">
-                                                                            <a className="dropdown-item active">Qualificação</a>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link legacyBehavior href="#">
-                                                                            <a className="dropdown-item">Vagas <i className="fa-solid fa-arrow-up ml-5"></i></a>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link legacyBehavior href="#">
-                                                                            <a className="dropdown-item">Vagas <i className="fa-solid fa-arrow-down ml-5"></i></a>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <Company />
+
+                                        <CompanyList companies={companies} />
+
                                     </div>
                                 </div>
                                 <Sidebar />
@@ -133,4 +107,23 @@ export default function CompaniesGrid() {
             </Layout>
         </>
     );
+}
+
+export async function getServerSideProps() {
+    try {
+        await connectMongoDB();
+        const companies = await Company.find().select("-team -pending").lean();
+        return {
+            props: {
+                companies: JSON.parse(JSON.stringify(companies)),
+            },
+        };
+    } catch (error) {
+        console.error("Erro ao buscar empresas:", error);
+        return {
+            props: {
+                companies: [],
+            },
+        };
+    }
 }

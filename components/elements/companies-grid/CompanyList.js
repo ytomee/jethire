@@ -1,15 +1,6 @@
-// pages/company/index.tsx (ou .jsx)
 import Link from "next/link";
-import connectMongoDB from "../../../lib/mongodb";
-import Company from "../../../models/company";
-console.log("Modelo Company:", Company);
 
-export default function CompanyPage({ companies = [] }) {
-
-    if (!companies || companies.length === 0) {
-        return <p className="text-center py-5">Nenhuma empresa encontrada.</p>;
-    }
-
+export default function CompanyList({ companies }) {
     return (
         <div className="row">
             {companies.map((company) => (
@@ -21,7 +12,7 @@ export default function CompanyPage({ companies = [] }) {
                                     <a>
                                         <figure className="mb-0">
                                             <img
-                                                src={company.banner || "/assets/imgs/default/banner.jpg"}
+                                                src={company.banner?.secure_url || "/assets/imgs/default/banner.jpg"}
                                                 alt="Banner"
                                             />
                                         </figure>
@@ -30,8 +21,8 @@ export default function CompanyPage({ companies = [] }) {
                             </div>
                             <div className="card-grid-3-pfp position-absolute">
                                 <img
-                                    src={company.pfp || "/assets/imgs/default/user.png"}
-                                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                                    src={company.logo?.secure_url || "/assets/imgs/default/user.png"}
+                                    style={{ width: "100%", height: "100%", objectFit: "cover", padding: "15px", backgroundColor: "#fff" }}
                                     alt="Logo"
                                 />
                             </div>
@@ -45,7 +36,7 @@ export default function CompanyPage({ companies = [] }) {
                                     </Link>
                                 </h5>
                                 <p className="color-text-paragraph font-sm mb-3">
-                                    {company.descriptions?.[0]?.description || "Sem descrição disponível."}
+                                    {company.shortDesc || "Sem descrição disponível."}
                                 </p>
 
                                 <div className="skills-wrapper mb-3">
@@ -68,7 +59,7 @@ export default function CompanyPage({ companies = [] }) {
                                     <span className="d-flex justify-content-end align-items-center">
                                         <a
                                             className="btn btn-apply-now"
-                                            href={`/profile/${company._id}`}
+                                            href={`/company/${company._id}`}
                                             style={{ width: "100%" }}
                                         >
                                             Ver perfil
@@ -82,26 +73,4 @@ export default function CompanyPage({ companies = [] }) {
             ))}
         </div>
     );
-}
-
-export async function getServerSideProps() {
-  try {
-    await connectMongoDB();
-    const companies = await Company.find({})
-      .select("-team -pending")
-      .lean();
-
-    return {
-      props: {
-        companies: JSON.parse(JSON.stringify(companies)),
-      },
-    };
-  } catch (error) {
-    console.error("Erro ao buscar empresas:", error);
-    return {
-      props: {
-        companies: [],
-      },
-    };
-  }
 }

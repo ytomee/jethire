@@ -109,7 +109,7 @@ const companySchema = new Schema(
 );
 
 const Company = 
-  mongoose.models.Company || 
+  mongoose.models?.Company || 
   mongoose.model("Company", companySchema);
 
 export default Company;
