@@ -169,7 +169,7 @@ export default function Profile({ user, profileComplete, profilePercentage, main
 
                                                 {session?.user?.id === user._id && (
                                                     <div className="text-center mt-20">
-                                                        <a href={`/edit/${user._id}`} className="btn btn-default">Editar perfil</a>
+                                                        <a href="/edit" className="btn btn-default">Editar perfil</a>
                                                     </div>
                                                 )}
                                             </div>
@@ -194,7 +194,7 @@ export default function Profile({ user, profileComplete, profilePercentage, main
                                                     <p>Se quiser fazer alguma alteração, ainda pode.</p>
                                                 </>
                                             )}
-                                            <a href={`/edit/${user._id}`} className="btn btn-default mt-10">Editar perfil</a>
+                                            <a href="/edit" className="btn btn-default mt-10">Editar perfil</a>
                                         </div>
                                     )}
 

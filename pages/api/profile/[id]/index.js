@@ -1,6 +1,5 @@
-import connectMongoDB from "../../../lib/mongodb";
-import User from "../../../models/user";
-import { getToken } from "next-auth/jwt";
+import connectMongoDB from "../../../../lib/mongodb";
+import User from "../../../../models/user";
 import { v2 as cloudinary } from "cloudinary";
 
 cloudinary.config({
@@ -20,15 +19,21 @@ export default async function handler(req, res) {
     try {
       await connectMongoDB();
 
-      const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET });
-      const userId = token.id;
+      const userId = req.query.id;
+
+      if (!userId) {
+        return res.status(400).json({ message: "ID do utilizador em falta na URL." });
+      }
 
       const { pfp, banner, cv, ...formData } = req.body;
 
+      const user = await User.findById(userId);
+      if (!user) {
+        return res.status(404).json({ message: "Utilizador não encontrado" });
+      }
+
       if (pfp) {
-        const user = await User.findById(userId);
         const oldId = user?.profile?.pfp_id;
-      
         if (oldId) {
           try {
             await cloudinary.uploader.destroy(oldId);
@@ -36,11 +41,11 @@ export default async function handler(req, res) {
             console.error("Erro ao apagar imagem antiga:", err);
           }
         }
-      
+
         const uploadRes = await cloudinary.uploader.upload(`data:image/jpeg;base64,${pfp}`, {
           folder: "pfp",
         });
-      
+
         formData.profile = {
           ...formData.profile,
           pfp: uploadRes.secure_url,
@@ -49,21 +54,19 @@ export default async function handler(req, res) {
       }
 
       if (banner) {
-        const user = await User.findById(userId);
         const oldId = user?.profile?.banner_id;
-      
         if (oldId) {
           try {
             await cloudinary.uploader.destroy(oldId);
           } catch (err) {
-            console.error("Erro ao apagar imagem antiga:", err);
+            console.error("Erro ao apagar banner antigo:", err);
           }
         }
-      
+
         const uploadRes = await cloudinary.uploader.upload(`data:image/jpeg;base64,${banner}`, {
           folder: "banner",
         });
-      
+
         formData.profile = {
           ...formData.profile,
           banner: uploadRes.secure_url,
@@ -72,39 +75,33 @@ export default async function handler(req, res) {
       }
 
       if (cv) {
-        const user = await User.findById(userId);
         const oldId = user?.profile?.cv_id;
-      
         if (oldId) {
           try {
             await cloudinary.uploader.destroy(oldId);
           } catch (err) {
-            console.error("Erro ao apagar imagem antiga:", err);
+            console.error("Erro ao apagar CV antigo:", err);
           }
         }
-      
+
         const uploadRes = await cloudinary.uploader.upload(`data:image/jpeg;base64,${cv}`, {
           folder: "cv",
         });
-      
+
         formData.profile = {
           ...formData.profile,
           cv: uploadRes.secure_url,
           cv_id: uploadRes.public_id,
         };
       }
-      
-      const user = await User.findByIdAndUpdate(
+
+      const updatedUser = await User.findByIdAndUpdate(
         userId,
         { $set: formData },
         { new: true, upsert: false }
       );
 
-      if (!user) {
-        return res.status(404).json({ message: "Utilizador não encontrado" });
-      }
-
-      return res.status(200).json({ message: "Perfil atualizado com sucesso!", user });
+      return res.status(200).json({ message: "Perfil atualizado com sucesso!", user: updatedUser });
 
     } catch (error) {
       console.error(error);

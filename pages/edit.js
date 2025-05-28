@@ -3,29 +3,29 @@
 "use client";
 
 //REACT
-import Layout from "../../components/Layout/Layout";
+import Layout from "../components/Layout/Layout";
 import { useState, useEffect } from "react";
 
 //JSON
-import countries from "../../components/json/countries.json"
-import educationLevels from "../../components/json/education.json"
-import yearsExperienceJson from "../../components/json/years.json"
+import countries from "../components/json/countries.json"
+import educationLevels from "../components/json/education.json"
+import yearsExperienceJson from "../components/json/years.json"
 
 //COMPONENTS
-import Languages from "../../components/elements/edit/Languages";
-import PFP from "../../components/elements/edit/PFP";
-import Banner from "../../components/elements/edit/Banner";
-import AboutMe from "../../components/elements/edit/AboutMe";
-import AboutMeShort from "../../components/elements/edit/AboutMeShort";
-import Education from "../../components/elements/edit/Education";
-import Experience from "../../components/elements/edit/Experience";
-import Skills from "../../components/elements/edit/Skills";
-import CV from "../../components/elements/edit/CV";
-import Portfolio from "../../components/elements/edit/Portfolio";
+import Languages from "../components/elements/edit/Languages";
+import PFP from "../components/elements/edit/PFP";
+import Banner from "../components/elements/edit/Banner";
+import AboutMe from "../components/elements/edit/AboutMe";
+import AboutMeShort from "../components/elements/edit/AboutMeShort";
+import Education from "../components/elements/edit/Education";
+import Experience from "../components/elements/edit/Experience";
+import Skills from "../components/elements/edit/Skills";
+import CV from "../components/elements/edit/CV";
+import Portfolio from "../components/elements/edit/Portfolio";
 
 //DATABASE & SESSION
-import connectMongoDB from "../../lib/mongodb";
-import User from "../../models/user";
+import connectMongoDB from "../lib/mongodb";
+import User from "../models/user";
 import { getSession } from "next-auth/react";
 
 export default function EditProfile({ user }) {
@@ -56,7 +56,7 @@ export default function EditProfile({ user }) {
 
         try {
             setIsLoading(true); 
-            const res = await fetch("/api/profile", {
+            const res = await fetch(`/api/profile/${formData._id}`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -77,11 +77,6 @@ export default function EditProfile({ user }) {
             setIsLoading(false);
         }
     };
-
-    const handleDebug = (e) => {
-        e.preventDefault();
-        console.log("Dados a enviar:", JSON.stringify(formData, null, 2));
-    };    
 
     return (
         <>
@@ -109,7 +104,6 @@ export default function EditProfile({ user }) {
                                 action="#" 
                                 method="POST"
                                 onSubmit={handleSubmit}
-                                //onSubmit={handleDebug}
                             >
                                 <div className="row wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                                     <div className="col-lg-10">
@@ -330,10 +324,9 @@ export default function EditProfile({ user }) {
 }
 
 export async function getServerSideProps(context) {
-    const { id } = context.params;
     const session = await getSession({ req: context.req });
 
-    if (!session || !session.user || session.user.id !== id) {
+    if (!session || !session.user || !session.user.id) {
         return {
             redirect: {
                 destination: '/',
@@ -344,7 +337,7 @@ export async function getServerSideProps(context) {
 
     try {
         await connectMongoDB();
-        const user = await User.findById(id).lean();
+        const user = await User.findById(session.user.id).lean();
 
         if (!user) {
             return {

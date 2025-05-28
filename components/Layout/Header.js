@@ -101,14 +101,6 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link legacyBehavior href={`/dashboard`}>
-                                                        <button>
-                                                            <i className="fa-solid fa-chart-simple mr-5"></i>Dashboard
-                                                        </button>
-                                                    </Link>
-                                                </li>
-                                                <li><hr style={{marginBlock: "5px"}}></hr></li>
-                                                <li>
                                                     <button>
                                                         <i className="fa-solid fa-gear mr-5"></i>Definições
                                                     </button>
