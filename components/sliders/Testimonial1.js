@@ -12,6 +12,20 @@ const TestimonialSlider1 = () => {
                     slidesPerView={3}
                     spaceBetween={30}
                     loop={true}
+                    breakpoints={{
+                        200: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        1024: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        1400: {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        }
+                    }}
                     className="swiper-wrapper pb-70 pt-5"
                 >
                     <SwiperSlide>
