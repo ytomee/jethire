@@ -19,107 +19,93 @@ export default function Sidebar() {
                             <ul className="list-checkbox">
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">Tecnologia</span>
+                                        <input type="checkbox" value="1" />
+                                        <span className="text-small">Desenvolvimento</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">12</span>
+                                    <span className="number-item">1</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">Criatividade</span>
+                                        <input type="checkbox" value="2" />
+                                        <span className="text-small">Redes</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">23</span>
+                                    <span className="number-item">2</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">Ciências</span>
+                                        <input type="checkbox" value="3" />
+                                        <span className="text-small">Cibersegurança</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">43</span>
+                                    <span className="number-item">3</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">Atendimento</span>
+                                        <input type="checkbox" value="4" />
+                                        <span className="text-small">Dados & IA</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">65</span>
+                                    <span className="number-item">4</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">Gestão</span>
+                                        <input type="checkbox" value="5" />
+                                        <span className="text-small">Suporte Técnico</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">76</span>
+                                    <span className="number-item">5</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">Operador</span>
+                                        <input type="checkbox" value="6" />
+                                        <span className="text-small">Hardware & IoT</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">76</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="filter-block mb-20">
-                        <h5 className="medium-heading mb-25">Salário</h5>
-                        <div className="form-group">
-                            <ul className="list-checkbox">
-                                <li>
-                                    <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">$0k - $20k</span>
-                                        <span className="checkmark" />
-                                    </label>
-                                    <span className="number-item">56</span>
+                                    <span className="number-item">6</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">$20k - $40k</span>
+                                        <input type="checkbox" value="7" />
+                                        <span className="text-small">Cloud</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">37</span>
+                                    <span className="number-item">7</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">$40k - $60k</span>
+                                        <input type="checkbox" value="8" />
+                                        <span className="text-small">Marketing</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">75</span>
+                                    <span className="number-item">8</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">$60k - $80k</span>
+                                        <input type="checkbox" value="9" />
+                                        <span className="text-small">UI & UX</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">98</span>
+                                    <span className="number-item">9</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">$80k - $100k</span>
+                                        <input type="checkbox" value="10" />
+                                        <span className="text-small">Consultoria</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">14</span>
+                                    <span className="number-item">10</span>
                                 </li>
                                 <li>
                                     <label className="cb-container">
-                                        <input type="checkbox" />
-                                        <span className="text-small">$100k - $200k</span>
+                                        <input type="checkbox" value="11" />
+                                        <span className="text-small">E-Commerce</span>
                                         <span className="checkmark" />
                                     </label>
-                                    <span className="number-item">25</span>
+                                    <span className="number-item">11</span>
                                 </li>
+
                             </ul>
                         </div>
                     </div>
