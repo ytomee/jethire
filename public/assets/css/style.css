@@ -1269,7 +1269,7 @@ h6,
 .btn-tags-sm {
   padding: 6px 18px;
   border-radius: 5px;
-  color: var(--red-500);
+  color: var(--red-500)!important;
   min-width: 42px;
   font-size: 12px;
   line-height: 18px;

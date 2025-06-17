@@ -1,47 +1,40 @@
 import mongoose, { Schema } from "mongoose";
 
-const locationSchema = new Schema({
-  city: String,
-  country: String
-}, { _id: false });
-
-const descriptionSchema = new Schema({
-  title: String,
-  content: String
-}, { _id: false });
-
-const fieldSchema = new Schema({
-  label: String,
-  type: {
-    type: String,
-    enum: ['text', 'textarea', 'select', 'checkbox', 'radio', 'file']
+const descriptionSchema = new Schema(
+  {
+    title: { type: String, required: true },
+    text: { type: String, required: true },
   },
-  options: [String],
-  required: Boolean
-}, { _id: false });
+  { _id: false }
+);
 
-const formSchema = new Schema({
-  fields: [fieldSchema]
-}, { _id: false });
+const offerSchema = new Schema(
+  {
+    company: {
+      type: Schema.Types.ObjectId,
+      ref: "Company",
+      required: true,
+    },
+    role: { type: String, required: true },
+    type: { type: String, required: true },
+    level: { type: String, required: true },
+    experience: { type: String },
+    salary: { type: String },
+    remote: { type: String },
+    tags: { type: [String], default: [] },
+    description: [descriptionSchema],
+    favorites: [
+      {
+        type: Schema.Types.ObjectId,
+        ref: "User",
+      }
+    ],
+    isActive: {
+      type: Boolean,
+      default: true,
+    },
+  },
+  { timestamps: true }
+);
 
-const offerSchema = new Schema({
-  company: { type: mongoose.Schema.Types.ObjectId, ref: 'Company', required: true },
-
-  role: String,
-  industry: String,
-  salary: String,
-  jobType: String,    
-  jobLevel: String,   
-  jobTime: String,  
-  experience: String,
-
-  location: locationSchema,
-  description: [descriptionSchema],
-
-  form: formSchema,
-  isActive: { type: Boolean, default: true }
-}, 
-{ timestamps: true });
-
-const Offer = mongoose.models.Offer || mongoose.model("Offer", offerSchema);
-export default Offer;
+export default mongoose.models.Offer || mongoose.model("Offer", offerSchema);
