@@ -177,6 +177,15 @@ export default function JobList() {
                         <div className="row flex-row-reverse">
                             <div className="col-lg-9 col-md-12">
                                 <div className="content-page">
+                                    <div className="box-filters-job">
+                                        <div className="row">
+                                            <div className="col-xl-6 col-lg-5">
+                                                <span className="text-small text-showing">
+                                                    A mostrar <strong>{filteredOffers.length}</strong> de <strong>{offers.length}</strong> empresas
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div className="row display-list">
                                     {loading ? (
                                         <div className="text-center py-5">
@@ -202,7 +211,7 @@ export default function JobList() {
                                                     </div>
                                                     <div className="card-block-info">
                                                         <h4>
-                                                            <Link legacyBehavior href={`/job-details/${offer._id}`}>
+                                                            <Link legacyBehavior href={`/offer/${offer._id}`}>
                                                                 <span className="capitalize">{offer.level} {offer.role}</span>
                                                             </Link>
                                                         </h4>
@@ -247,7 +256,7 @@ export default function JobList() {
                                                                     </span>
                                                                 </div>
                                                                 <div className="col-lg-5 col-5 text-end">
-                                                                    <Link href={`/job-details/${offer._id}`}>
+                                                                    <Link href={`/offer/${offer._id}`}>
                                                                         <span className="btn btn-apply-now">Ver detalhes</span>
                                                                     </Link>
                                                                 </div>

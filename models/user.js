@@ -61,6 +61,7 @@ const userSchema = new Schema(
             cv: String,
             cv_id: String
         },
+        savedOffers: [{ type: mongoose.Schema.Types.ObjectId, ref: "Offer" }],
     },
     { timestamps: true }
 );
