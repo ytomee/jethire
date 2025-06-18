@@ -84,11 +84,16 @@ export default function JobDetails({ offer }) {
                                             </div>
                                             <div className="sidebar-text-info ml-10">
                                                 <span className="text-description-job mb-1">Salário</span>
-                                                <strong className="small-heading-job">
-                                                    {offer.salary.salaryMin || offer.salary.salaryMax
-                                                        ? `${offer.salary.salaryMin || "?"}€ - ${offer.salary.salaryMax || "?"}€`
-                                                        : "Não definido"}
-                                                </strong>
+                                                {offer.salary ? (
+                                                    <strong className="small-heading-job">
+                                                        {offer.salary.salaryMin || offer.salary.salaryMax
+                                                            ? `${offer.salary.salaryMin || "?"}€ - ${offer.salary.salaryMax || "?"}€`
+                                                            : "Não definido"}
+                                                    </strong>
+                                                ) : <strong className="small-heading-job">
+                                                        Não definido
+                                                    </strong>
+                                                }
                                             </div>
                                         </div>
 
@@ -150,26 +155,28 @@ export default function JobDetails({ offer }) {
                             </div>
 
                             <div className="col-lg-4 col-md-12 col-sm-12 pl-40 pl-lg-15 mt-lg-30">
-                                <div className="sidebar-border">
-                                    <div className="sidebar-heading">
-                                        <div className="avatar-sidebar" style={{ display: "flex", alignItems: "end", gap: "10px" }}>
-                                            <figure>
-                                                <img src={offer.company.logo?.secure_url} style={{ width: "60px", height: "60px", objectFit: "cover" }}/>
-                                            </figure>
-                                            <div className="sidebar-info" style={{ paddingLeft: 0, paddingBottom: "5px" }}>
-                                                <span className="sidebar-company" style={{ fontSize: "22px", marginBottom: "5px" }}>{offer.company.name}</span>
-                                                <span className="card-location" style={{padding: 0}}>{offer.company.city}, {offer.company.country}</span>
+                                {offer.company != null && (
+                                    <div className="sidebar-border">
+                                        <div className="sidebar-heading">
+                                            <div className="avatar-sidebar" style={{ display: "flex", alignItems: "end", gap: "10px" }}>
+                                                <figure>
+                                                    <img src={offer.company.logo?.secure_url} style={{ width: "60px", height: "60px", objectFit: "cover" }}/>
+                                                </figure>
+                                                <div className="sidebar-info" style={{ paddingLeft: 0, paddingBottom: "5px" }}>
+                                                    <span className="sidebar-company" style={{ fontSize: "22px", marginBottom: "5px" }}>{offer.company.name}</span>
+                                                    <span className="card-location" style={{padding: 0}}>{offer.company.city}, {offer.company.country}</span>
+                                                </div>
                                             </div>
                                         </div>
+                                        <div className="sidebar-list-job">
+                                            <ul className="ul-disc">
+                                                {offer.company.address && <li><strong>Morada: </strong>{offer.company.address}</li>}
+                                                {offer.company.phone && <li><strong>Telefone: </strong>{offer.company.phone}</li>}
+                                                {offer.company.email && <li><strong>Email: </strong>{offer.company.email}</li>}
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div className="sidebar-list-job">
-                                        <ul className="ul-disc">
-                                            {offer.company.address && <li><strong>Morada: </strong>{offer.company.address}</li>}
-                                            {offer.company.phone && <li><strong>Telefone: </strong>{offer.company.phone}</li>}
-                                            {offer.company.email && <li><strong>Email: </strong>{offer.company.email}</li>}
-                                        </ul>
-                                    </div>
-                                </div>
+                                )}
 
                                 <div className="sidebar-border mt-20">
                                     <h6 className="f-18 mb-20">Tags</h6>
@@ -201,7 +208,9 @@ export async function getServerSideProps(context) {
             .populate("company", "-team -pending")
             .lean();
 
-        if (!offer) return { notFound: true };
+        if (!offer || !offer.company) {
+            return { notFound: true };
+        }
 
         return {
             props: { offer: JSON.parse(JSON.stringify(offer)) }

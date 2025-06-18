@@ -5,7 +5,7 @@ import { compare } from "bcrypt";
 import connectMongoDB from "../../../lib/mongodb";
 import User from "../../../models/user";
 
-const authOptions = {
+export const authOptions = {
     providers: [
         GoogleProvider({
             clientId: process.env.GOOGLE_CLIENT_ID,
