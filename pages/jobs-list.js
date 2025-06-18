@@ -75,8 +75,8 @@ export default function JobList() {
             );
 
             const matchesSalary = filters.salary.length === 0 || filters.salary.some(range => {
-                const min = offer.salaryMin || 0;
-                const max = offer.salaryMax || 0;
+                const min = offer.salary?.salaryMin || 0;
+                const max = offer.salary?.salaryMax || 0;
                 switch (range) {
                     case "0-20": return max <= 20000;
                     case "20-40": return min >= 20000 && max <= 40000;
@@ -106,8 +106,8 @@ export default function JobList() {
                         ? offer.tags.includes(value)
                         : offer.tags === value;
                 case "salary":
-                    const min = offer.salaryMin || 0;
-                    const max = offer.salaryMax || 0;
+                    const min = offer.salary?.salaryMin || 0;
+                    const max = offer.salary?.salaryMax || 0;
                     switch (value) {
                         case "0-20": return max <= 20000;
                         case "20-40": return min >= 20000 && max <= 40000;
@@ -195,7 +195,7 @@ export default function JobList() {
                                     ) : (
                                         filteredOffers.map((offer) => (
                                             <div key={offer._id} className="col-12 col-md-6 mb-4">
-                                                <div className="card-grid-2 hover-up" style={{ height: "auto" }}>
+                                                <div className="card-grid-2 hover-up" style={{ height: "auto", minHeight: "315px" }}>
                                                     <div className="row">
                                                         <div className="col-lg-6 col-md-6 col-sm-12">
                                                             <div className="card-grid-2-image-left">
@@ -251,8 +251,12 @@ export default function JobList() {
                                                             <div className="row">
                                                                 <div className="col-lg-7 col-7">
                                                                     <span className="card-text-price">
-                                                                        {offer.salaryMin ? `${offer.salaryMin}€` : <span style={{ color: "black" }}>Sem salário definido</span>}
-                                                                        {offer.salaryMax ? ` - ${offer.salaryMax}€` : ""}
+                                                                        {offer.salary?.salaryMin && offer.salary?.salaryMax
+                                                                        ? <>{offer.salary.salaryMin}€ <span style={{color: "black"}}>-</span> {offer.salary.salaryMax}€</>
+                                                                        : offer.salary?.salaryMin
+                                                                        ? `${offer.salary.salaryMin}€`
+                                                                        : <span style={{ color: "black" }}>Sem salário definido</span>
+                                                                        }
                                                                     </span>
                                                                 </div>
                                                                 <div className="col-lg-5 col-5 text-end">

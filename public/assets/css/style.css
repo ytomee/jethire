@@ -8274,7 +8274,7 @@ ul li:last-child .card-list-4 {
 
 .banner-homepage5 .banner-inner .row .block-banner {
   padding-right: 70px;
-  padding-top: 90px;
+  padding-top: 150px;
 }
 .banner-homepage5 .banner-imgs {
   min-height: 550px;
@@ -8915,6 +8915,7 @@ ul li:last-child .card-list-4 {
   }
   .banner-homepage5 .banner-inner .row .block-banner {
     padding-right: 0px;
+    padding-top: 50px;
   }
   .banner-hero .block-banner .form-find .btn-find {
     background-position: left 19px top 14px;

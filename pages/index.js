@@ -29,14 +29,14 @@ export default function Index5() {
                                                 <a href="#comofunciona" className="btn btn-default mr-15">Começar<i className="fa-solid fa-caret-down ml-10"></i></a>
                                                 <a className="btn btn-border-brand-2">Saber mais</a>
                                             </div>
-                                            <div className="mt-50">
+                                            {/* <div className="mt-50">
                                                 <div className="form-find mt-40 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
                                                     <form>
                                                         <input className="form-input input-keysearch mr-10 style-2" type="text" placeholder="Palavras-chave... " />
                                                         <button className="btn btn-default font-sm"><i className="fa-solid fa-magnifying-glass mr-10"></i>Procurar</button>
                                                     </form>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="col-xl-5 col-lg-12 d-none d-xl-block col-md-6">

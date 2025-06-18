@@ -115,11 +115,11 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                     </ul>
                                 ) : (
                                     <>
-                                        <Link legacyBehavior href="page-register">
+                                        <Link legacyBehavior href="/page-register">
                                             <a className="">Criar conta</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="page-signin">
+                                        <Link legacyBehavior href="/page-signin">
                                             <a className="btn btn-default btn-shadow ml-40">Login</a>
                                         </Link>
                                     </>

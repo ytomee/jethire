@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import Layout from "../../components/Layout/Layout";
 import connectMongoDB from "../../lib/mongodb";
 import Offer from "../../models/offer";
-import FavoriteButton from "../../components/elements/offers/favourite";
+import FavoriteButton from "../../components/elements/offers/favorite";
 
 export default function JobDetails({ offer }) {
     return (
@@ -85,8 +85,8 @@ export default function JobDetails({ offer }) {
                                             <div className="sidebar-text-info ml-10">
                                                 <span className="text-description-job mb-1">Salário</span>
                                                 <strong className="small-heading-job">
-                                                    {offer.salaryMin || offer.salaryMax
-                                                        ? `${offer.salaryMin || "?"}€ - ${offer.salaryMax || "?"}€`
+                                                    {offer.salary.salaryMin || offer.salary.salaryMax
+                                                        ? `${offer.salary.salaryMin || "?"}€ - ${offer.salary.salaryMax || "?"}€`
                                                         : "Não definido"}
                                                 </strong>
                                             </div>
@@ -98,7 +98,7 @@ export default function JobDetails({ offer }) {
                                             </div>
                                             <div className="sidebar-text-info ml-10">
                                                 <span className="text-description-job mb-1">Nível</span>
-                                                <strong className="small-heading-job">{offer.level}</strong>
+                                                <strong className="small-heading-job capitalize">{offer.level}</strong>
                                             </div>
                                         </div>
 
