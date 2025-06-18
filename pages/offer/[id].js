@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import mongoose from "mongoose";
+import FavoriteButton from "../../components/elements/offers/Favorite";
 import Layout from "../../components/Layout/Layout";
 import connectMongoDB from "../../lib/mongodb";
 import Offer from "../../models/offer";
-import FavoriteButton from "../../components/elements/offers/favorite";
 
 export default function JobDetails({ offer }) {
     return (
