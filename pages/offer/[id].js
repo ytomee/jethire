@@ -4,8 +4,21 @@ import FavoriteButton from "../../components/elements/offers/Favorite";
 import Layout from "../../components/Layout/Layout";
 import connectMongoDB from "../../lib/mongodb";
 import Offer from "../../models/offer";
+import Company from "../../models/company";
 
 export default function JobDetails({ offer }) {
+    
+    if (!offer || !offer.company) {
+        return (
+            <Layout>
+                <div className="container text-center">
+                    <h2>Oferta não encontrada</h2>
+                    <p>A oferta pode ter sido removida ou a empresa associada já não existe.</p>
+                </div>
+            </Layout>
+        );
+    }
+
     return (
         <Layout>
             <div>
@@ -155,28 +168,26 @@ export default function JobDetails({ offer }) {
                             </div>
 
                             <div className="col-lg-4 col-md-12 col-sm-12 pl-40 pl-lg-15 mt-lg-30">
-                                {offer.company != null && (
-                                    <div className="sidebar-border">
-                                        <div className="sidebar-heading">
-                                            <div className="avatar-sidebar" style={{ display: "flex", alignItems: "end", gap: "10px" }}>
-                                                <figure>
-                                                    <img src={offer.company.logo?.secure_url} style={{ width: "60px", height: "60px", objectFit: "cover" }}/>
-                                                </figure>
-                                                <div className="sidebar-info" style={{ paddingLeft: 0, paddingBottom: "5px" }}>
-                                                    <span className="sidebar-company" style={{ fontSize: "22px", marginBottom: "5px" }}>{offer.company.name}</span>
-                                                    <span className="card-location" style={{padding: 0}}>{offer.company.city}, {offer.company.country}</span>
-                                                </div>
+                                <div className="sidebar-border">
+                                    <div className="sidebar-heading">
+                                        <div className="avatar-sidebar" style={{ display: "flex", alignItems: "end", gap: "10px" }}>
+                                            <figure>
+                                                <img src={offer.company.logo?.secure_url} style={{ width: "60px", height: "60px", objectFit: "cover" }}/>
+                                            </figure>
+                                            <div className="sidebar-info" style={{ paddingLeft: 0, paddingBottom: "5px" }}>
+                                                <span className="sidebar-company" style={{ fontSize: "22px", marginBottom: "5px" }}>{offer.company.name}</span>
+                                                <span className="card-location" style={{padding: 0}}>{offer.company.city}, {offer.company.country}</span>
                                             </div>
                                         </div>
-                                        <div className="sidebar-list-job">
-                                            <ul className="ul-disc">
-                                                {offer.company.address && <li><strong>Morada: </strong>{offer.company.address}</li>}
-                                                {offer.company.phone && <li><strong>Telefone: </strong>{offer.company.phone}</li>}
-                                                {offer.company.email && <li><strong>Email: </strong>{offer.company.email}</li>}
-                                            </ul>
-                                        </div>
                                     </div>
-                                )}
+                                    <div className="sidebar-list-job">
+                                        <ul className="ul-disc">
+                                            {offer.company.address && <li><strong>Morada: </strong>{offer.company.address}</li>}
+                                            {offer.company.phone && <li><strong>Telefone: </strong>{offer.company.phone}</li>}
+                                            {offer.company.email && <li><strong>Email: </strong>{offer.company.email}</li>}
+                                        </ul>
+                                    </div>
+                                </div>
 
                                 <div className="sidebar-border mt-20">
                                     <h6 className="f-18 mb-20">Tags</h6>
