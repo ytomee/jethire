@@ -1141,6 +1141,10 @@ h6,
   line-height: 1;
   transition: 0.1s;
 }
+.btn-cancel {
+  background-color: var(--neutral-500);
+  color: var(--neutral-100);
+}
 .btn.btn-default {
   color: var(--neutral-100);
   background-color: var(--neutral-900);
