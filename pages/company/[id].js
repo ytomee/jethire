@@ -48,8 +48,8 @@ export default function CompanyDetails({ company }) {
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-12 d-flex justify-content-end align-items-center">
-                                        {company.contacts?.email && (
-                                            <a href={`mailto:${company.contacts.email}`} className="btn btn-apply" style={{ padding: "18px", fontSize: "16px" }}>
+                                        {company.contact?.email && (
+                                            <a href={`mailto:${company.contact.email}`} className="btn btn-apply" style={{ padding: "18px", fontSize: "16px" }}>
                                                 <i className="fa-solid fa-phone mr-10"></i>Contacte-nos
                                             </a>
                                         )}
