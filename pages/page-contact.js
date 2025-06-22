@@ -13,7 +13,7 @@ export default function Contact() {
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-6">
-                                        <h2 className="mb-10">Sobre nós</h2>
+                                        <h2 className="mb-10">Fale connosco</h2>
                                         <p className="font-lg color-text-paragraph-2">Conheça a nossa equipa e dê-nos o seu feedback.</p>
                                     </div>
                                 </div>
