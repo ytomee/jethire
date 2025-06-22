@@ -13,6 +13,8 @@ import Company from "/models/company";
 export default function CompaniesGrid({ companies }) {
     const [showForm, setShowForm] = useState(false);
     const [showValidRequest, setShowValidRequest] = useState(false);
+    const [searchTerm, setSearchTerm] = useState("");
+    const [filteredCompanies, setFilteredCompanies] = useState(companies || []);
 
     useEffect(() => {
         if (showForm) {
@@ -24,6 +26,21 @@ export default function CompaniesGrid({ companies }) {
             document.body.style.overflow = 'auto';
         };
     }, [showForm]);
+
+    useEffect(() => {
+        const term = searchTerm.toLowerCase();
+
+        const filtered = companies.filter((company) => {
+            const matchName = company.name?.toLowerCase().includes(term);
+            const matchDesc = company.shortDesc?.toLowerCase().includes(term);
+            const matchCity = company.city?.toLowerCase().includes(term);
+            const matchCountry = company.country?.toLowerCase().includes(term);
+            const matchTags = company.tags?.some(tag => tag.toLowerCase().includes(term));
+            return matchName || matchDesc || matchCity || matchCountry || matchTags;
+        });
+
+        setFilteredCompanies(filtered);
+    }, [searchTerm, companies]);
 
     return (
         <>
@@ -39,15 +56,21 @@ export default function CompaniesGrid({ companies }) {
                             <div className="banner-hero banner-single banner-single-bg">
                                 <div className="block-banner text-center">
                                     <h3 className="wow animate__animated animate__fadeInUp">
-                                        <span className="job-list-number">{companies?.length || 0}</span> empresas disponíveis
+                                        <span className="job-list-number">{filteredCompanies?.length || 0}</span> empresas disponíveis
                                     </h3>
                                     <div className="font-sm color-text-paragraph-2 mt-10 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                                         Explore empresas registadas na nossa plataforma.
                                     </div>
                                     <div className="form-find text-start mt-40 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
-                                        <form>
-                                            <input className="form-input input-keysearch mr-10" type="text" placeholder="Palavras-chave..." />
-                                            <button className="btn btn-default btn-find font-sm">Procurar</button>
+                                        <form onSubmit={(e) => e.preventDefault()}>
+                                            <input
+                                                className="form-input input-keysearch mr-10"
+                                                type="text"
+                                                placeholder="Palavras-chave..."
+                                                value={searchTerm}
+                                                onChange={(e) => setSearchTerm(e.target.value)}
+                                            />
+                                            <button className="btn btn-default btn-find font-sm" type="submit">Procurar</button>
                                         </form>
                                     </div>
                                 </div>
@@ -58,294 +81,19 @@ export default function CompaniesGrid({ companies }) {
                     <section className="section-box mt-30">
                         <div className="container">
                             <div className="row flex-row-reverse">
-                                <div className="col-lg-9 col-md-12 col-sm-12 col-12 float-right">
+                                <div className="col-lg-12 col-md-12 col-sm-12 col-12 float-right">
                                     <div className="content-page">
                                         <div className="box-filters-job">
                                             <div className="row">
                                                 <div className="col-xl-6 col-lg-5">
                                                     <span className="text-small text-showing">
-                                                        A mostrar <strong>1-{companies.length}</strong> de <strong>{companies.length}</strong> empresas
+                                                        A mostrar <strong>1-{filteredCompanies.length}</strong> de <strong>{companies.length}</strong> empresas
                                                     </span>
                                                 </div>
                                             </div>
                                         </div>
 
-                                        <CompanyList companies={companies} />
-
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-md-12 col-sm-12 col-12">
-                                    <div className="sidebar-shadow none-shadow mb-30">
-                                        <div className="sidebar-filters">
-                                            <div className="filter-block head-border mb-30">
-                                                <h5>
-                                                    Filtros avançados
-                                                    <Link legacyBehavior href="#">
-                                                        <a className="link-reset"><i className="fa-solid fa-rotate-right mr-5"></i> Repor</a>
-                                                    </Link>
-                                                </h5>
-                                            </div>
-                                            <div className="filter-block mb-20">
-                                                <h5 className="medium-heading mb-15">Indústria</h5>
-                                                <div className="form-group">
-                                                    <ul className="list-checkbox">
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="1" />
-                                                                <span className="text-small">Desenvolvimento</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">1</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="2" />
-                                                                <span className="text-small">Redes</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">2</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="3" />
-                                                                <span className="text-small">Cibersegurança</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">3</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="4" />
-                                                                <span className="text-small">Dados & IA</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">4</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="5" />
-                                                                <span className="text-small">Suporte Técnico</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">5</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="6" />
-                                                                <span className="text-small">Hardware & IoT</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">6</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="7" />
-                                                                <span className="text-small">Cloud</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">7</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="8" />
-                                                                <span className="text-small">Marketing</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">8</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="9" />
-                                                                <span className="text-small">UI & UX</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">9</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="10" />
-                                                                <span className="text-small">Consultoria</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">10</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" value="11" />
-                                                                <span className="text-small">E-Commerce</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">11</span>
-                                                        </li>
-
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="filter-block mb-30">
-                                                <h5 className="medium-heading mb-10">Experiência</h5>
-                                                <div className="form-group">
-                                                    <ul className="list-checkbox">
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small"> {'<'} 1 ano</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">56</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">1-2 anos</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">87</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" defaultChecked="checked" />
-                                                                <span className="text-small">2-3 anos</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">24</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">3-4 anos</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">45</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">4-5 anos</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">76</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small"> {'>'} 5 anos </span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">89</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="filter-block mb-30">
-                                                <h5 className="medium-heading mb-10">Modalidade</h5>
-                                                <div className="form-group">
-                                                    <ul className="list-checkbox">
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">Presencial</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">12</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" defaultChecked="checked" />
-                                                                <span className="text-small">Remoto</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">65</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">Híbrido</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">58</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="filter-block mb-30">
-                                                <h5 className="medium-heading mb-10">Oferta publicada</h5>
-                                                <div className="form-group">
-                                                    <ul className="list-checkbox">
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" defaultChecked="checked" />
-                                                                <span className="text-small">All</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">78</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">1 dia</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">65</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">7 dias</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">24</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">30 dias</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">56</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="filter-block mb-20">
-                                                <h5 className="medium-heading mb-15">Tipo de trabalho</h5>
-                                                <div className="form-group">
-                                                    <ul className="list-checkbox">
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">Tempo inteiro</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">25</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" defaultChecked="checked" />
-                                                                <span className="text-small">Part-time</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">64</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">Trabalhos remotos</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">78</span>
-                                                        </li>
-                                                        <li>
-                                                            <label className="cb-container">
-                                                                <input type="checkbox" />
-                                                                <span className="text-small">Freelancer</span>
-                                                                <span className="checkmark" />
-                                                            </label>
-                                                            <span className="number-item">97</span>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <CompanyList companies={filteredCompanies} />
                                     </div>
                                 </div>
                             </div>

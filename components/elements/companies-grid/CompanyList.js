@@ -1,10 +1,17 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function CompanyList({ companies }) {
     return (
         <div className="row">
-            {companies.map((company) => (
-                <div key={company._id} className="col-md-6 col-sm-12 col-12 mb-4">
+            {companies.map((company, index) => (
+                <motion.div
+                    key={company._id}
+                    className="col-md-6 col-sm-12 col-12 mb-4"
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: index * 0.05, duration: 0.4, ease: "easeOut" }}
+                >
                     <div className="card-grid-3 d-flex flex-column h-100">
                         <div className="position-relative">
                             <div className="card-grid-3-image">
@@ -69,7 +76,7 @@ export default function CompanyList({ companies }) {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
             ))}
         </div>
     );

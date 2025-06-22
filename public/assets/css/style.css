@@ -6980,24 +6980,33 @@ ul li:last-child .card-list-4 {
 
 .logout-confirm-box {
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 12px;
-  text-align: center;
+  text-align: left;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   max-width: 90%;
 }
 
 .logout-confirm-box p {
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logout-confirm-box h6 {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .logout-confirm-box .buttons {
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: .8rem;
+  gap: 10px;
 }
 
 .logout-confirm-box .btn {
+  flex: 1;
   border: none;
   cursor: pointer;
 }

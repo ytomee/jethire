@@ -33,7 +33,7 @@ const userSchema = new Schema(
         type: { type: String, required: true },
         name: { type: String, required: true },
         email: { type: String, required: true, unique: true },
-        password: { type: String },
+        password: { type: String, select: false },
         profile: {
             city: String,
             country: String,

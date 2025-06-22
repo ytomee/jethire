@@ -25,7 +25,8 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                         className="logout-confirm-overlay"
                     >
                         <div className="logout-confirm-box">
-                            <p>Tem a certeza que pretende sair?</p>
+                            <p>Encerrar sessão</p>
+                            <h6>Tem a certeza que pretende sair?</h6>
                             <div className="buttons">
                                 <button onClick={handleSignOut} className="btn btn-danger">Sim, sair</button>
                                 <button onClick={() => setShowConfirmLogout(false)} className="btn btn-secondary">Cancelar</button>
@@ -102,7 +103,7 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                 </li>
                                                 <li>
                                                     <button>
-                                                        <i className="fa-solid fa-gear mr-5"></i>Definições
+                                                        <i className="fa-solid fa-gear mr-5"></i><a style={{all: "unset"}} href="change-pass">Alterar password</a>
                                                     </button>
                                                 </li>
                                                 <li>
@@ -260,16 +261,16 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                 <h6 className="mb-10">Your Account</h6>
                                 <ul className="mobile-menu font-heading">
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Profile</a></Link>
+                                        <Link legacyBehavior href=""><a>Profile</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Work Preferences</a></Link>
+                                        <Link legacyBehavior href=""><a>Work Preferences</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Account Settings</a></Link>
+                                        <Link legacyBehavior href=""><a>Account Settings</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Go Pro</a></Link>
+                                        <Link legacyBehavior href=""><a>Go Pro</a></Link>
                                     </li>
                                     <li>
                                         <Link legacyBehavior href="/page-signin"><a>Sign Out</a></Link>
@@ -412,16 +413,16 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                 <h6 className="mb-10">Your Account</h6>
                                 <ul className="mobile-menu font-heading">
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Profile</a></Link>
+                                        <Link legacyBehavior href=""><a>Profile</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Work Preferences</a></Link>
+                                        <Link legacyBehavior href=""><a>Work Preferences</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Account Settings</a></Link>
+                                        <Link legacyBehavior href=""><a>Account Settings</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="#"><a>Go Pro</a></Link>
+                                        <Link legacyBehavior href=""><a>Go Pro</a></Link>
                                     </li>
                                     <li>
                                         <Link legacyBehavior href="/page-signin"><a>Sign Out</a></Link>

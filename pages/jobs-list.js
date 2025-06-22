@@ -3,18 +3,24 @@
 import Link from "next/link";
 import Layout from "../components/Layout/Layout";
 import { useState, useEffect } from "react";
+import { useSession } from "next-auth/react";
 
 export default function JobList() {
+    const { data: session } = useSession();
+
     const [offers, setOffers] = useState([]);
     const [filteredOffers, setFilteredOffers] = useState([]);
     const [search, setSearch] = useState("");
     const [loading, setLoading] = useState(true);
+    const [onlyFavorites, setOnlyFavorites] = useState(false);
+    const [savedOffers, setSavedOffers] = useState([]);
     const [filters, setFilters] = useState({
         tags: [],
         salary: [],
         experience: [],
         remote: [],
         type: [],
+        isMinorFriendly: [],
     });
 
     const toggleFilter = (category, value) => {
@@ -53,6 +59,24 @@ export default function JobList() {
     }, []);
 
     useEffect(() => {
+        async function fetchSaved() {
+            if (!session?.user?.email) return;
+
+            try {
+                const res = await fetch(`/api/offer/list-favorite?email=${session.user.email}`);
+                const data = await res.json();
+                if (Array.isArray(data)) {
+                    setSavedOffers(data);
+                }
+            } catch (err) {
+                console.error("Erro ao carregar favoritos:", err);
+            }
+        }
+
+        fetchSaved();
+    }, [session]);
+
+    useEffect(() => {
         const lowerSearch = search.toLowerCase();
 
         const filtered = offers.filter((offer) => {
@@ -78,12 +102,15 @@ export default function JobList() {
                 const min = offer.salary?.salaryMin || 0;
                 const max = offer.salary?.salaryMax || 0;
                 switch (range) {
-                    case "0-20": return max <= 20000;
-                    case "20-40": return min >= 20000 && max <= 40000;
-                    case "40-60": return min >= 40000 && max <= 60000;
-                    case "60-80": return min >= 60000 && max <= 80000;
-                    case "80-100": return min >= 80000 && max <= 100000;
-                    case "100-200": return min >= 100000;
+                    case "0-500": return max <= 500;
+                    case "501-800": return min >= 501 && max <= 800;
+                    case "801-1100": return min >= 801 && max <= 1100;
+                    case "1101-1400": return min >= 1101 && max <= 1400;
+                    case "1401-1700": return min >= 1401 && max <= 1700;
+                    case "1701-2000": return min >= 1701 && max <= 2000;
+                    case "2001-2500": return min >= 2001 && max <= 2500;
+                    case "2501-3000": return min >= 2501 && max <= 3000;
+                    case "3001-9999": return min >= 3001;
                     default: return true;
                 }
             });
@@ -92,11 +119,22 @@ export default function JobList() {
             const matchesRemote = filters.remote.length === 0 || filters.remote.includes(offer.remote);
             const matchesType = filters.type.length === 0 || filters.type.includes(offer.type);
 
-            return matchesSearch && matchesTags && matchesSalary && matchesExperience && matchesRemote && matchesType;
+            const matchesMinorFriendly =
+                filters.isMinorFriendly.length === 0 ||
+                (filters.isMinorFriendly.includes("true") && offer.isMinorFriendly === true) ||
+                (filters.isMinorFriendly.includes("false") && offer.isMinorFriendly === false);
+
+            const matchesAll = matchesSearch && matchesTags && matchesSalary && matchesExperience && matchesRemote && matchesType && matchesMinorFriendly;
+
+            if (onlyFavorites) {
+                return matchesAll && savedOffers.includes(offer._id);
+            }
+
+            return matchesAll;
         });
 
         setFilteredOffers(filtered);
-    }, [search, offers, filters]);
+    }, [search, offers, filters, savedOffers, onlyFavorites]);
 
     const getCount = (category, value) => {
         return offers.filter((offer) => {
@@ -109,12 +147,15 @@ export default function JobList() {
                     const min = offer.salary?.salaryMin || 0;
                     const max = offer.salary?.salaryMax || 0;
                     switch (value) {
-                        case "0-20": return max <= 20000;
-                        case "20-40": return min >= 20000 && max <= 40000;
-                        case "40-60": return min >= 40000 && max <= 60000;
-                        case "60-80": return min >= 60000 && max <= 80000;
-                        case "80-100": return min >= 80000 && max <= 100000;
-                        case "100-200": return min >= 100000;
+                        case "0-500": return max <= 500;
+                        case "501-800": return min >= 501 && max <= 800;
+                        case "801-1100": return min >= 801 && max <= 1100;
+                        case "1101-1400": return min >= 1101 && max <= 1400;
+                        case "1401-1700": return min >= 1401 && max <= 1700;
+                        case "1701-2000": return min >= 1701 && max <= 2000;
+                        case "2001-2500": return min >= 2001 && max <= 2500;
+                        case "2501-3000": return min >= 2501 && max <= 3000;
+                        case "3001-9999": return min >= 3001;
                         default: return true;
                     }
                 case "experience":
@@ -123,6 +164,9 @@ export default function JobList() {
                     return offer.remote === value;
                 case "type":
                     return offer.type === value;
+                case "isMinorFriendly":
+                    return (value === "true" && offer.isMinorFriendly === true) ||
+                        (value === "false" && offer.isMinorFriendly === false);
                 default:
                     return false;
             }
@@ -172,28 +216,34 @@ export default function JobList() {
                         </div>
                     </div>
                 </section>
+
                 <section className="section-box mt-30">
                     <div className="container">
                         <div className="row flex-row-reverse">
-                            <div className="col-lg-9 col-md-12">
-                                <div className="content-page">
-                                    <div className="box-filters-job">
-                                        <div className="row">
-                                            <div className="col-xl-6 col-lg-5">
-                                                <span className="text-small text-showing">
-                                                    A mostrar <strong>{filteredOffers.length}</strong> de <strong>{offers.length}</strong> empresas
-                                                </span>
-                                            </div>
-                                        </div>
+                            <div className="col-lg-9">
+                                <div className="box-filters-job d-flex justify-content-between mb-3">
+                                    <span className="text-small">
+                                        A mostrar <strong>{filteredOffers.length}</strong> de <strong>{offers.length}</strong> ofertas
+                                    </span>
+                                    {session?.user?.email && (
+                                        <span
+                                            className="text-small"
+                                            style={{ cursor: "pointer", color: onlyFavorites ? "#d33" : "inherit" }}
+                                            onClick={() => setOnlyFavorites(prev => !prev)}
+                                        >
+                                            {onlyFavorites ? "A mostrar apenas favoritos" : "Mostrar apenas favoritos"}
+                                        </span>
+                                    )}
+                                </div>
+
+                                {loading ? (
+                                    <div className="text-center py-5">
+                                        <div className="spinner-border text-danger" role="status" />
+                                        <p className="mt-3">A carregar ofertas...</p>
                                     </div>
-                                    <div className="row display-list">
-                                    {loading ? (
-                                        <div className="text-center py-5">
-                                            <div className="spinner-border text-danger" role="status" />
-                                            <p className="mt-3">A carregar ofertas...</p>
-                                        </div>
-                                    ) : (
-                                        filteredOffers.map((offer) => (
+                                ) : (
+                                    <div className="row">
+                                        {filteredOffers.map((offer) => (
                                             <div key={offer._id} className="col-12 col-md-6 mb-4">
                                                 <div className="card-grid-2 hover-up" style={{ height: "auto", minHeight: "315px" }}>
                                                     <div className="row">
@@ -219,7 +269,8 @@ export default function JobList() {
                                                             <span>
                                                                 {{
                                                                     fulltime: "Tempo inteiro",
-                                                                    parttime: "Part-time"
+                                                                    parttime: "Part-time",
+                                                                    internship: "Estágio"
                                                                 }[offer.type]}
 
                                                                 {offer.type && offer.remote && <>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</>}
@@ -269,18 +320,18 @@ export default function JobList() {
                                                     </div>
                                                 </div>
                                             </div>
-                                        ))
-                                    )}
+                                        ))}
                                     </div>
-                                </div>
+                                )}
                             </div>
+
                             <div className="col-lg-3 col-md-12">
                                 <div className="sidebar-shadow none-shadow mb-30">
                                     <div className="sidebar-filters">
                                         <div className="filter-block head-border mb-30">
                                             <h5>
                                                 Filtros avançados
-                                                <a className="link-reset" onClick={() => setFilters({ tags: [], salary: [], experience: [], remote: [], type: [] })}>
+                                                <a className="link-reset" onClick={() => setFilters({ tags: [], salary: [], experience: [], remote: [], type: [], isMinorFriendly: [] })}>
                                                     <i className="fa-solid fa-rotate-right mr-5"></i> Repor
                                                 </a>
                                             </h5>
@@ -303,12 +354,15 @@ export default function JobList() {
                                             <div className="form-group">
                                                 <ul className="list-checkbox">
                                                     {[
-                                                        ["0-20", "0€ - 20k€"],
-                                                        ["20-40", "20k€ - 40k€"],
-                                                        ["40-60", "40k€ - 60k€"],
-                                                        ["60-80", "60k€ - 80k€"],
-                                                        ["80-100", "80k€ - 100k€"],
-                                                        ["100-200", "> 100k€"],
+                                                        ["0-500", "< 500€"],
+                                                        ["501-800", "501€ - 800€"],
+                                                        ["801-1100", "801€ - 1.100€"],
+                                                        ["1101-1400", "1.101€ - 1.400€"],
+                                                        ["1401-1700", "1.401€ - 1.700€"],
+                                                        ["1701-2000", "1.701€ - 2.000€"],
+                                                        ["2001-2500", "2.001€ - 2.500€"],
+                                                        ["2501-3000", "2.501€ - 3.000€"],
+                                                        ["3001-9999", "> 3.000€"]
                                                     ].map(([val, label]) => checkbox("salary", label, val))}
                                                 </ul>
                                             </div>
@@ -355,6 +409,19 @@ export default function JobList() {
                                                         ["parttime", "Part-time"],
                                                         ["internship", "Estágio"],
                                                     ].map(([val, label]) => checkbox("type", label, val))}
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        {/* Filtro Menores de idade */}
+                                        <div className="filter-block mb-20">
+                                            <h5 className="medium-heading mb-15">Aceita menores de 18</h5>
+                                            <div className="form-group">
+                                                <ul className="list-checkbox">
+                                                    {[
+                                                        ["true", "Sim"],
+                                                        ["false", "Não"]
+                                                    ].map(([val, label]) => checkbox("isMinorFriendly", label, val))}
                                                 </ul>
                                             </div>
                                         </div>
