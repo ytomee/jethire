@@ -18,7 +18,7 @@ const candidateSchema = new Schema({
     type: Boolean,
     default: false,
   },
-}, { timestamps: true });
+}, { _id: false, timestamps: true });
 
 const offerSchema = new Schema(
   {
