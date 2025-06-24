@@ -128,7 +128,7 @@ export default function Index5() {
                                 </div>
                             </div>
                             <div className="mt-30 text-center d-flex justify-content-center">
-                                <a href="page-register" className="btn btn-default"><i className="fa-solid fa-clipboard-user mr-10"></i>Começar</a>
+                                <a href="register" className="btn btn-default"><i className="fa-solid fa-clipboard-user mr-10"></i>Começar</a>
                             </div>
                         </div>
                     </section>
@@ -206,7 +206,7 @@ export default function Index5() {
                                         <h1 className="color-brand-1 mt-0 mb-15">Cria já o teu perfil</h1>
                                         <p className="font-lg color-text-paragraph-2">Ao partilhares as tuas habilidades, experiências e aspirações, estarás um passo mais próximo de encontrar a oportunidade de trabalho ideal para ti. Não deixes para amanhã o que podes fazer hoje!</p>
                                         <div className="mt-20 d-flex">
-                                            <a href="page-register" className="btn btn-default"><i className="fa-solid fa-feather mr-10"></i>Criar conta</a>
+                                            <a href="register" className="btn btn-default"><i className="fa-solid fa-feather mr-10"></i>Criar conta</a>
                                         </div>
                                     </div>
                                 </div>

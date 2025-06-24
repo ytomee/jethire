@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Layout from "../components/Layout/Layout";
-import TestimonialSlider1 from "./../components/sliders/Testimonial1";
+import TestimonialSlider1 from "../components/sliders/Testimonial1";
 
 export default function Contact() {
     return (

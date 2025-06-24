@@ -48,19 +48,21 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                             <nav className="nav-main-menu">
                                 <ul className="main-menu">
                                     <li>
-                                        <Link legacyBehavior href="/jobs-list"><a>Procurar trabalho</a></Link>
+                                        <Link legacyBehavior href="/offers"><a>Procurar trabalho</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="/companies-grid"><a>Empresas</a></Link>
+                                        <Link legacyBehavior href="/companies"><a>Empresas</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="/candidates-grid"><a>Candidatos</a></Link>
+                                        <Link legacyBehavior href="/candidates"><a>Candidatos</a></Link>
                                     </li>
+                                    {session && (
+                                        <li>
+                                            <Link legacyBehavior href="/jet-ai"><a>Jet <span className="ai">AI</span></a></Link>
+                                        </li>
+                                    )}
                                     <li>
-                                        <Link legacyBehavior href="/"><a>Jet <span className="ai">AI</span></a></Link>
-                                    </li>
-                                    <li>
-                                        <Link legacyBehavior href="/page-contact"><a>Sobre nós</a></Link>
+                                        <Link legacyBehavior href="/about"><a>Sobre nós</a></Link>
                                     </li>
                                 </ul>
                             </nav>
@@ -116,11 +118,11 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                     </ul>
                                 ) : (
                                     <>
-                                        <Link legacyBehavior href="/page-register">
+                                        <Link legacyBehavior href="/register">
                                             <a className="">Criar conta</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/page-signin">
+                                        <Link legacyBehavior href="/signin">
                                             <a className="btn btn-default btn-shadow ml-40">Login</a>
                                         </Link>
                                     </>
@@ -223,10 +225,10 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                     <Link legacyBehavior href="/page-contact"><a>Contact Us</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link legacyBehavior href="/page-register"><a>Register</a></Link>
+                                                    <Link legacyBehavior href="/register"><a>Register</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link legacyBehavior href="/page-signin"><a>Signin</a></Link>
+                                                    <Link legacyBehavior href="/signin"><a>Signin</a></Link>
                                                 </li>
                                                 <li>
                                                     <Link legacyBehavior href="/page-reset-password"><a>Reset Password</a></Link>
@@ -273,7 +275,7 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                         <Link legacyBehavior href=""><a>Go Pro</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="/page-signin"><a>Sign Out</a></Link>
+                                        <Link legacyBehavior href="/signin"><a>Sign Out</a></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -375,10 +377,10 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                     <Link legacyBehavior href="/page-contact"><a>Contact Us</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link legacyBehavior href="/page-register"><a>Register</a></Link>
+                                                    <Link legacyBehavior href="/register"><a>Register</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link legacyBehavior href="/page-signin"><a>Signin</a></Link>
+                                                    <Link legacyBehavior href="/signin"><a>Signin</a></Link>
                                                 </li>
                                                 <li>
                                                     <Link legacyBehavior href="/page-reset-password"><a>Reset Password</a></Link>
@@ -425,7 +427,7 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                         <Link legacyBehavior href=""><a>Go Pro</a></Link>
                                     </li>
                                     <li>
-                                        <Link legacyBehavior href="/page-signin"><a>Sign Out</a></Link>
+                                        <Link legacyBehavior href="/signin"><a>Sign Out</a></Link>
                                     </li>
                                 </ul>
                             </div>

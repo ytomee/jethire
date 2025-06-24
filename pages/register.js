@@ -47,7 +47,7 @@ export default function Register() {
       }
 
       alert("Registo efetuado com sucesso!");
-      router.push("/page-signin");
+      router.push("/signin");
       setFormData({ fullname: "", email: "", password: "", rePassword: "" });
     } catch (error) {
       setErrorMessage(error.message);
@@ -66,7 +66,7 @@ export default function Register() {
                 <p className="font-sm text-mutted-2 mb-30">
                   Acesso a todas as funcionalidades. <br /> Sem necessidade de cartão de crédito.
                 </p>
-                <div className="social-icons-group">
+                {/* <div className="social-icons-group">
                   <button onClick={() => signIn("google")} className="btn social-login hover-up mb-20">
                     <img src="assets/imgs/template/icons/icon-google.svg" />
                     <strong>Google</strong>
@@ -82,7 +82,7 @@ export default function Register() {
                 </div>
                 <div className="divider-text-center">
                   <span>ou continuar com</span>
-                </div>
+                </div> */}
               </div>
               <form onSubmit={handleSubmit} className="login-register text-start mt-20">
                 {errorMessage && <p className="text-danger">{errorMessage}</p>}
@@ -156,8 +156,8 @@ export default function Register() {
                 </div>
                 <div className="text-mutted-2 text-center">
                   Já tem uma conta?
-                  <Link legacyBehavior href="/page-signin">
-                    <a href="page-signin"> Entrar</a>
+                  <Link legacyBehavior href="/signin">
+                    <a href="signin"> Entrar</a>
                   </Link>
                 </div>
               </form>

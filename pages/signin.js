@@ -38,7 +38,7 @@ export default function Signin() {
                                 <div className="text-center">
                                     <h1 className="mt-10 mb-5 text-brand-1">Login</h1>
                                     <p className="font-sm text-brand-2 mb-20">Bem-vindo, outra vez! </p>
-                                    <div className="social-icons-group">
+                                    {/* <div className="social-icons-group">
                                         <button onClick={() => signIn("google")}
                                             className="btn social-login hover-up mb-20">
                                             <img src="assets/imgs/template/icons/icon-google.svg" />
@@ -55,7 +55,7 @@ export default function Signin() {
                                     </div>
                                     <div className="divider-text-center">
                                         <span>ou continuar com</span>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <form onSubmit={handleSubmit} className="login-register text-start mt-20">
                                     <div className="form-group">
@@ -107,7 +107,7 @@ export default function Signin() {
                                     </div>
                                     <div className="text-mutted-2 text-center">
                                         Ainda não tem conta?
-                                        <Link legacyBehavior href="/page-register">
+                                        <Link legacyBehavior href="/register">
                                             <a> Criar conta</a>
                                         </Link>
                                     </div>

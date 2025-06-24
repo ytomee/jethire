@@ -64,7 +64,7 @@ export default function Candidates({ users }) {
                           .slice(0, 4)
                           .map((skill, index) => (
                             <Link legacyBehavior href="/jobs-grid" key={index}>
-                              <a className="btn btn-tags-sm mb-10 mr-5">{skill.name}</a>
+                              <a className="btn btn-tags-sm">{skill.name}</a>
                             </Link>
                           ))}
                       </div>
