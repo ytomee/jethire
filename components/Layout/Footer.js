@@ -73,9 +73,9 @@ const Footer = () => {
                         <div className="col-md-6"><span className="font-xs color-text-paragraph">Copyright © 2025. Desenvolvido por <a target='blank' href="https://github.com/ytomee">Tomé Almeida</a> </span></div>
                         <div className="col-md-6 text-md-end text-start">
                             <div className="footer-social">
-                                <a className="font-xs color-text-paragraph" href="#">Política de privacidade</a>
-                                <a className="font-xs color-text-paragraph mr-30 ml-30" href="#">Termos &amp; Condições</a>
-                                <a className="font-xs color-text-paragraph" href="#">Política de cookies</a></div>
+                                <a className="font-xs color-text-paragraph" href="privacy-policy">Política de privacidade</a>
+                                <a className="font-xs color-text-paragraph mr-30 ml-30" href="terms-conditions">Termos &amp; Condições</a>
+                                <a className="font-xs color-text-paragraph" href="cookies">Política de cookies</a></div>
                         </div>
                     </div>
                 </div>

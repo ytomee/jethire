@@ -308,7 +308,7 @@ export default function EditProfile({ user }) {
                                             Confirmar
                                         </button>
                                         <label className="ml-20">
-                                            <input required className="float-start mr-5 mt-6" type="checkbox" /> Ao confirmar esta caixa, está a concordar com os nossos <a className="terms-conditions">Termos & Condições</a>.
+                                            <input required className="float-start mr-5 mt-6" type="checkbox" /> Ao confirmar esta caixa, está a concordar com os nossos <a href="terms-conditions" target="_blank" className="terms-conditions">Termos & Condições</a>.
                                         </label>
                                     </div>
                                     {error && <p>{error}</p>}
