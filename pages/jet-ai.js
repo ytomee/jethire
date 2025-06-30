@@ -63,10 +63,10 @@ export default function ChatbotPage() {
               <div className="box-chat rounded p-4 border border-gray-200 shadow-sm">
                 
                 <div className="row justify-content-center">
-                  <img style={{ height: "35px" }} src="assets/imgs/jet-ai/jet-ai.svg" />
+                  <img style={{ height: "35px", marginBottom: "20px" }} src="assets/imgs/jet-ai/jet-ai.svg" />
                 </div>
                 
-                <div className="chat-window mb-4" style={{ overflowY: "auto", height: "55vh" }}>
+                <div className="chat-window mb-4" style={{ overflowY: "auto", height: "53vh" }}>
                   {messages.map((msg, idx) => (
                     <div
                       key={idx}

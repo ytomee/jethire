@@ -1080,6 +1080,11 @@ h4 {
 .spinner {
   animation: spinner 2s linear infinite; 
 }
+
+.shadow-pulse {
+  animation: shadow-pulse 2s linear infinite;
+}
+
 @keyframes shadow-pulse {
   0% {
     box-shadow: 0 0 0 0px rgba(151, 119, 250, 0.8);

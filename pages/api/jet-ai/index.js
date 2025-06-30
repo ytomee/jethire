@@ -32,7 +32,7 @@ export default async function handler(req, res) {
 
     const data = await response.json();
 
-    const botReply = data.choices?.[0]?.message?.content?.trim() || "Desculpa, não consegui responder.";
+    const botReply = data.choices?.[0]?.message?.content?.trim() || "Hmm... Esta deixou-me sem palavras.";
 
     return res.status(200).json({ reply: botReply });
   } catch (err) {
