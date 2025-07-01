@@ -108,8 +108,8 @@ const CandidatesSlider = () => {
                                                         .sort((a, b) => b.value - a.value)
                                                         .slice(0, 4)
                                                         .map((skill, index) => (
-                                                            <Link legacyBehavior href="/jobs-grid" key={index}>
-                                                                <a className="btn btn-tags-sm">{skill.name}</a>
+                                                            <Link legacyBehavior href="/offers" key={index}>
+                                                                <a style={{ minWidth: "25%" }} className="btn btn-tags-sm">{skill.name}</a>
                                                             </Link>
                                                         ))}
                                                 </div>

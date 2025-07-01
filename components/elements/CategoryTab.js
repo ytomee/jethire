@@ -118,7 +118,7 @@ const CategoryTab = () => {
                         {loading ? (
                             <p>A carregar ofertas...</p>
                         ) : filteredOffers.length === 0 ? (
-                            <p className="text-center">Sem ofertas nesta categoria.</p>
+                            <p style={{ paddingTop: "60px" }} className="text-center text-lg">Sem ofertas nesta categoria.</p>
                         ) : (
                             filteredOffers.map((offer) => (
                                 <div key={offer._id} className="col-12 col-md-4">
@@ -127,13 +127,11 @@ const CategoryTab = () => {
                                     <div className="col-12">
                                         <div className="card-grid-2-image-left">
                                         <div className="image-box">
-                                            <img style={{ height: "100%" }} src={offer.company.logo.secure_url} alt="logo" />
+                                            <img style={{ height: "50px", width: "50px" }} src={offer.company.logo.secure_url} alt="logo" />
                                         </div>
                                         <div className="right-info">
                                             <span className="name-job">{offer.company.name}</span>
-                                            <span className="location-small capitalize">
-                                                {offer.company.city}, {offer.company.country}
-                                            </span>
+                                            <span className="location-small">{[offer.company.city, offer.company.country].filter(Boolean).join(', ') || 'Sem localização'}</span>
                                         </div>
                                         </div>
                                     </div>

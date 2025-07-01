@@ -63,7 +63,7 @@ export default function Candidates({ users }) {
                           .sort((a, b) => b.value - a.value)
                           .slice(0, 4)
                           .map((skill, index) => (
-                            <Link legacyBehavior href="/jobs-grid" key={index}>
+                            <Link legacyBehavior href="/offers" key={index}>
                               <a className="btn btn-tags-sm">{skill.name}</a>
                             </Link>
                           ))}

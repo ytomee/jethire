@@ -27,7 +27,7 @@ export default function Index5() {
                                             </div>
                                             <div className="mt-30 d-flex">
                                                 <a href="#comofunciona" className="btn btn-default mr-15">Começar<i className="fa-solid fa-caret-down ml-10"></i></a>
-                                                <a className="btn btn-border-brand-2">Saber mais</a>
+                                                <a href="/about" className="btn btn-border-brand-2">Saber mais</a>
                                             </div>
                                             {/* <div className="mt-50">
                                                 <div className="form-find mt-40 wow animate__animated animate__fadeIn" data-wow-delay=".2s">
@@ -164,8 +164,8 @@ export default function Index5() {
                                         <div className="mt-40 pr-50 text-md-lh28 wow animate__animated animate__fadeInUp">Descobre todas as oportunidades à tua espera. Explora as ofertas disponíveis. Aprende mais sobre o mundo do trabalho, desenvolve-te e conquista o teu futuro. Tudo isto, de forma simples e acessível, na <span>JetHire</span>.</div>
                                         <div className="mt-40 d-flex">
                                             <div className="wow animate__animated animate__fadeInUp">
-                                                <Link legacyBehavior href="/jobs-grid">
-                                                    <a href="jobs-list" className="btn btn-default"><i className="fa-solid fa-user mr-10"></i>Procurar trabalho</a>
+                                                <Link legacyBehavior href="/offers">
+                                                    <a href="offers" className="btn btn-default"><i className="fa-solid fa-user mr-10"></i>Procurar trabalho</a>
                                                 </Link>
                                             </div>
                                         </div>
@@ -187,7 +187,7 @@ export default function Index5() {
                                     <CandidatesSlider />
                                 </div>
                                 <div className="text-center">
-                                    <Link legacyBehavior href="/candidates-grid">
+                                    <Link legacyBehavior href="/candidates">
                                         <a className="btn btn-brand-1 hover-up"><i className="fa-brands fa-blogger-b mr-10"></i>Ver mais candidatos</a>
                                     </Link>
                                 </div>

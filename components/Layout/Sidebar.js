@@ -79,7 +79,7 @@ const Sidebar = ({ openClass }) => {
                     </li>
                     <li>
                       <Link legacyBehavior href="/change-pass">
-                        <a>Alterar password</a>
+                        <a>Alterar pass</a>
                       </Link>
                     </li>
                     <li>

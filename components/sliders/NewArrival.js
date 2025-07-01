@@ -98,11 +98,11 @@ const NewArrivalSlider = ({ products }) => {
                                 </div>
                                 <p className="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
                                 <div className="mt-30">
-                                    <Link legacyBehavior href="/jobs-grid">
+                                    <Link legacyBehavior href="/offers">
                                         <a className="btn btn-grey-small mr-5">Typescript</a>
                                     </Link>
 
-                                    <Link legacyBehavior href="/jobs-grid">
+                                    <Link legacyBehavior href="/offers">
                                         <a className="btn btn-grey-small mr-5">Java</a>
                                     </Link>
                                 </div>
@@ -206,11 +206,11 @@ const NewArrivalSlider = ({ products }) => {
                                 </div>
                                 <p className="font-sm color-text-paragraph mt-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae architecto eveniet, dolor quo repellendus pariatur.</p>
                                 <div className="mt-30">
-                                    <Link legacyBehavior href="/jobs-grid">
+                                    <Link legacyBehavior href="/offers">
                                         <a className="btn btn-grey-small mr-5">Typescript</a>
                                     </Link>
 
-                                    <Link legacyBehavior href="/jobs-grid">
+                                    <Link legacyBehavior href="/offers">
                                         <a className="btn btn-grey-small mr-5">Java</a>
                                     </Link>
                                 </div>

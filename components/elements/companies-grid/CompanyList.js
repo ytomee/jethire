@@ -48,7 +48,7 @@ export default function CompanyList({ companies }) {
 
                                 <div className="skills-wrapper mb-3">
                                     {company.tags?.slice(0, 4).map((tag, i) => (
-                                        <Link legacyBehavior key={i} href="/jobs-grid">
+                                        <Link legacyBehavior key={i} href="/offers">
                                             <a className="btn btn-tags-sm">{tag}</a>
                                         </Link>
                                     ))}

@@ -105,7 +105,7 @@ const Header = ({handleOpen,handleRemove,openClass}) => {
                                                 </li>
                                                 <li>
                                                     <button>
-                                                        <i className="fa-solid fa-gear mr-5"></i><a style={{all: "unset"}} href="change-pass">Alterar password</a>
+                                                        <i className="fa-solid fa-gear mr-5"></i><a style={{all: "unset"}} href="change-pass">Alterar pass</a>
                                                     </button>
                                                 </li>
                                                 <li>

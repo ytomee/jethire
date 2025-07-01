@@ -99,8 +99,8 @@ export default function CompanyForm({ setShowForm, setShowValidRequest }) {
                 <h5 className="mb-10">Ano de fundação</h5>
                 <div className="select-style mb-20">
                   <select
-                    name="foundedYear"
-                    value={formData.foundedYear || ""}
+                    name="foundationYear"
+                    value={formData.foundationYear || ""}
                     onChange={handleChange}
                   >
                     <option value="">Selec.</option>

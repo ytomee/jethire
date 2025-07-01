@@ -49,9 +49,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$90 - $120</span><span className="text-muted">/Hour</span></div>
@@ -76,9 +76,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Word</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Word</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -103,11 +103,11 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">JS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">JS</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$120 - $150</span><span className="text-muted">/Hour</span></div>
@@ -132,9 +132,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -159,7 +159,7 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -184,9 +184,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">React</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">React</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -216,9 +216,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Word</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Word</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -243,11 +243,11 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">JS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">JS</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$120 - $150</span><span className="text-muted">/Hour</span></div>
@@ -272,9 +272,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -299,7 +299,7 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -324,9 +324,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">React</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">React</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -351,9 +351,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$90 - $120</span><span className="text-muted">/Hour</span></div>
@@ -382,11 +382,11 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">JS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">JS</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$120 - $150</span><span className="text-muted">/Hour</span></div>
@@ -411,9 +411,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -438,7 +438,7 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -463,9 +463,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">React</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">React</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NextJS    </a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NextJS    </a></Link>
 
                                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" />
                                             </div>
@@ -489,9 +489,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$90 - $120</span><span className="text-muted">/Hour</span></div>
@@ -516,9 +516,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Word                </a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Word                </a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -547,11 +547,11 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">JS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">JS</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$120 - $150</span><span className="text-muted">/Hour</span></div>
@@ -576,9 +576,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -603,9 +603,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$90 - $120</span><span className="text-muted">/Hour</span></div>
@@ -630,9 +630,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Word</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Word</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -657,7 +657,7 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -682,9 +682,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">React</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">React</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -713,11 +713,11 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">JS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">JS</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$120 - $150</span><span className="text-muted">/Hour</span></div>
@@ -742,9 +742,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$90 - $120</span><span className="text-muted">/Hour</span></div>
@@ -769,9 +769,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Word</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Word</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -796,9 +796,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -823,7 +823,7 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -848,9 +848,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">React</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">React</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -879,9 +879,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NodeJS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">MongoDB</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -906,9 +906,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Figma</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Adobe XD</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$90 - $120</span><span className="text-muted">/Hour</span></div>
@@ -933,9 +933,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">SEO</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Word</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Word</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -960,11 +960,11 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">HTML</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">CSS</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">JS</a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">JS</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$120 - $150</span><span className="text-muted">/Hour</span></div>
@@ -989,7 +989,7 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">Bootstrap</a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>
@@ -1014,9 +1014,9 @@ const CategoryTab2 = () => {
                                     <div className="card-2-bottom mt-20">
                                         <div className="row">
                                             <div className="col-xl-7 col-md-7 mb-2">
-                                                <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">React</a></Link>
+                                                <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">React</a></Link>
 
-                                            <Link legacyBehavior href="/jobs-grid"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
+                                            <Link legacyBehavior href="/offers"><a className="btn btn-tags-sm mr-5">NextJS                      </a></Link>
 
                                             </div>
                                             <div className="col-xl-5 col-md-5 text-lg-end"><span className="card-text-price">$80 - $150</span><span className="text-muted">/Hour</span></div>

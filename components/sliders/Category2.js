@@ -77,7 +77,7 @@ const CategorySlider2 = () => {
                         <SwiperSlide key={i}>
                             <div className="swiper-slide hover-up">
                                 <div className="card-grid-5 card-category hover-up" style={{ backgroundImage: `url(assets/imgs/page/homepage2/${item.img})` }}>
-                                    <Link legacyBehavior href="/jobs-grid">
+                                    <Link legacyBehavior href="/offers">
                                         <a>
                                             <div className="box-cover-img">
                                                 <div className="content-bottom">

@@ -95,7 +95,7 @@ const CategorySlider3 = () => {
                 >
                     {data.map((item, i) => (
                         <SwiperSlide className="swiper-slide hover-up" key={i}>
-                            <Link legacyBehavior href="/jobs-list">
+                            <Link legacyBehavior href="/offers">
                                 <a>
                                     <div className="item-logo">
                                         <div className="image-left">

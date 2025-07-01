@@ -46,7 +46,7 @@ export default function UserCards() {
               {/* <div className="card-2-bottom card-2-bottom-candidate mt-30">
                 <div className="text-start">
                   {user.skills.map((skill, index) => (
-                    <Link key={index} legacyBehavior href="/jobs-grid">
+                    <Link key={index} legacyBehavior href="/offers">
                       <a className="btn btn-tags-sm mb-10 mr-5">{skill}</a>
                     </Link>
                   ))}

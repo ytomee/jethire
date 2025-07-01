@@ -59,23 +59,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy </a>
                                         </Link>
                                     </div>
@@ -112,23 +112,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Java</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">C++</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Swift</a>
                                         </Link>
                                     </div>
@@ -165,23 +165,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">PHP</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -218,23 +218,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -271,23 +271,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -324,23 +324,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -377,23 +377,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -430,23 +430,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -483,23 +483,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -536,23 +536,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -589,23 +589,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -642,23 +642,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -699,23 +699,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -752,23 +752,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy </a>
                                         </Link>
                                     </div>
@@ -805,23 +805,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Java</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">C++</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Swift</a>
                                         </Link>
                                     </div>
@@ -858,23 +858,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">PHP</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -911,23 +911,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -964,23 +964,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1017,23 +1017,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1070,23 +1070,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1123,23 +1123,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1176,23 +1176,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1229,23 +1229,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1282,23 +1282,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1339,23 +1339,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1392,23 +1392,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy </a>
                                         </Link>
                                     </div>
@@ -1445,23 +1445,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Java</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">C++</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Swift</a>
                                         </Link>
                                     </div>
@@ -1498,23 +1498,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">PHP</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1551,23 +1551,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1604,23 +1604,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1657,23 +1657,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1710,23 +1710,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1763,23 +1763,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1816,23 +1816,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1869,23 +1869,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1922,23 +1922,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -1979,23 +1979,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2032,23 +2032,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy </a>
                                         </Link>
                                     </div>
@@ -2085,23 +2085,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Java</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">C++</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Swift</a>
                                         </Link>
                                     </div>
@@ -2138,23 +2138,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">PHP</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2191,23 +2191,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2244,23 +2244,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2297,23 +2297,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2350,23 +2350,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2403,23 +2403,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2456,23 +2456,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2509,23 +2509,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2562,23 +2562,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2620,23 +2620,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy </a>
                                         </Link>
                                     </div>
@@ -2673,23 +2673,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Java</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">C++</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Swift</a>
                                         </Link>
                                     </div>
@@ -2726,23 +2726,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">PHP</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2779,23 +2779,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2832,23 +2832,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2885,23 +2885,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2938,23 +2938,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -2991,23 +2991,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3044,23 +3044,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3097,23 +3097,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3150,23 +3150,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3207,23 +3207,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy </a>
                                         </Link>
                                     </div>
@@ -3260,23 +3260,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3313,23 +3313,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Java</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">C++</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Swift</a>
                                         </Link>
                                     </div>
@@ -3366,23 +3366,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">PHP</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Python</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">JavaScript</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3419,23 +3419,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3472,23 +3472,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3525,23 +3525,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3578,23 +3578,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3631,23 +3631,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3684,23 +3684,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3737,23 +3737,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>
@@ -3790,23 +3790,23 @@ const CategoryTab3 = () => {
                                         <span className="card-time">3 mins ago</span>
                                     </div>
                                     <div className="mt-20 border-bottom pb-20">
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Illustrator</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Adobe XD</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Figma</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Sketch</a>
                                         </Link>
 
-                                        <Link legacyBehavior href="/jobs-grid">
+                                        <Link legacyBehavior href="/offers">
                                             <a className="btn btn-grey-small bg-14 mb-5 mr-5">Lunacy</a>
                                         </Link>
                                     </div>

@@ -69,7 +69,7 @@ const CategorySlider = () => {
                     return (
                         <SwiperSlide key={i}>
                             <div className="swiper-slide hover-up">
-                                <Link legacyBehavior href="/jobs-list">
+                                <Link legacyBehavior href="/offers">
                                     <a>
                                         <div className="item-logo">
                                             <div className="image-left">
