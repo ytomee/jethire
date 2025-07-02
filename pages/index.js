@@ -213,6 +213,36 @@ export default function Index5() {
                             </div>
                         </div>
                     </section>
+                    <section className="section-box mt-80 bg-brand-2-light pt-20">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-lg-6 mb-30">
+                                    <img
+                                    className="img-fluid bdrd-10"
+                                    src="/assets/imgs/jet-ai/jet-ai-mockup.jpg"
+                                    alt="Jet AI Chatbot"
+                                    />
+                                </div>
+                                <div className="col-lg-6 pl-50">
+                                    <span className="color-brand-1 text-52 font-bold">NOVO!</span>
+                                    <div style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+                                        <h2 className="mt-10 mb-10">Apresentamos o </h2><img style={{ height: "35px" }} src="assets/imgs/jet-ai/jet-ai.svg"/>
+                                    </div>
+                                    <p className="font-xl color-text-paragraph-2 mb-30">
+                                    O nosso assistente inteligente está disponível 24/7 para te ajudar a navegar, encontrar ofertas e tirar dúvidas sobre o JetHire.
+                                    </p>
+                                    <ul className="list-icons mb-30">
+                                    <li className="mb-10"><i className="fa-solid fa-robot color-brand-2 mr-10"></i> Respostas inteligentes e rápidas</li>
+                                    <li className="mb-10"><i className="fa-solid fa-map-signs color-brand-2 mr-10"></i> Ajuda na navegação do site</li>
+                                    <li className="mb-10"><i className="fa-solid fa-briefcase color-brand-2 mr-10"></i> Sugestões personalizadas de emprego</li>
+                                    </ul>
+                                    <a href="/jet-ai" className="btn btn-brand-1 hover-up">
+                                    <i className="fa-solid fa-comments mr-10"></i>Experimentar o Jet AI
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </Layout>
         </>
