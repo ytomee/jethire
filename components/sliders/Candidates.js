@@ -71,7 +71,7 @@ const CandidatesSlider = () => {
                     {users.map((user, index) => (
                         <SwiperSlide key={index}>
                             <div className="swiper-slide">
-                                <div className="card-grid-3 d-flex flex-column h-100">
+                                <div className="card-grid-3 d-flex flex-column" style={{ minHeight: "420px" }}>
                                     <div className="position-relative">
                                         <div className="card-grid-3-image">
                                             <Link legacyBehavior href={`/profile/${user._id}`}>
