@@ -247,7 +247,7 @@ export default function JobList() {
                                             <div key={offer._id} className="col-12 col-md-6 mb-4">
                                                 <div className="card-grid-2 hover-up" style={{ height: "auto", minHeight: "350px" }}>
                                                     <div className="row">
-                                                        <div className="col-lg-6 col-md-6 col-sm-12">
+                                                        <div className="col-lg-12">
                                                             <div className="card-grid-2-image-left">
                                                                 <div className="image-box">
                                                                     <img style={{ height: "50px", width: "50px" }} src={offer.company.logo.secure_url} alt="logo" />

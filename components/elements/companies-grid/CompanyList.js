@@ -42,9 +42,6 @@ export default function CompanyList({ companies }) {
                                         <a>{company.name || "Nome não disponível"}</a>
                                     </Link>
                                 </h5>
-                                <p className="color-text-paragraph font-sm mb-3">
-                                    {company.shortDesc || "Sem descrição disponível."}
-                                </p>
 
                                 <div className="skills-wrapper mb-3">
                                     {company.tags?.slice(0, 4).map((tag, i) => (
