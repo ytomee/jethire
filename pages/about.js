@@ -93,7 +93,7 @@ export default function Contact() {
                                                     Enviar mensagem
                                                 </button>
                                                 <label className="ml-20">
-                                                    <input className="float-start mr-5 mt-6" required type="checkbox" /> Ao clicar está a concordar com os <a href="terms-conditions" target="_blank" lassName="color-brand-1">Termos & Condições</a>
+                                                    <input className="float-start mr-5 mt-6" required type="checkbox" /> Ao clicar está a concordar com os <a href="terms-conditions" target="_blank" className="color-brand-1">Termos & Condições</a>
                                                 </label>
                                             </div>
                                         </div>
