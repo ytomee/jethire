@@ -56,7 +56,7 @@ export default function Register() {
 
   return (  
     <Layout>
-      <section className="pt-20 login-register">
+      <section className="pt-80 login-register">
         <div className="container">
           <div className="row login-register-cover">
             <div className="col-lg-4 col-md-6 col-sm-12 mx-auto">

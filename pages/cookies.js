@@ -4,7 +4,7 @@ import Layout from "../components/Layout/Layout";
 export default function CookiesPolicyPage() {
   return (
     <Layout>
-      <section className="section-box mt-20 mb-50">
+      <section className="section-box mt-20 mb-50 pt-70">
         <div className="container">
           <h1 className="text-3xl font-bold mb-40">Política de Cookies</h1>
 

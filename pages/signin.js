@@ -32,7 +32,7 @@ export default function Signin() {
         <>
             <Layout>
                 <section className="pt-90 login-register">
-                    <div className="container">
+                    <div className="container pt-80">
                         <div className="row login-register-cover">
                             <div className="col-lg-4 col-md-6 col-sm-12 mx-auto">
                                 <div className="text-center">

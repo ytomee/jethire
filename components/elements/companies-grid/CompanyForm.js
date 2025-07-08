@@ -7,6 +7,15 @@ export default function CompanyForm({ setShowForm, setShowValidRequest }) {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+
+    if (name === "nif") {
+      const numericValue = value.replace(/\D/g, ""); // remove não dígitos
+      if (numericValue.length > 9) return;
+      if (numericValue && !numericValue.startsWith("5")) return;
+      setFormData((prev) => ({ ...prev, [name]: numericValue }));
+      return;
+    }
+
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
@@ -91,6 +100,10 @@ export default function CompanyForm({ setShowForm, setShowValidRequest }) {
                     onChange={handleChange}
                     type="text"
                     required
+                    inputMode="numeric"
+                    maxLength={9}
+                    pattern="5[0-9]{8}"
+                    title="O NIF deve ter 9 dígitos e começar por 5"
                   />
                 </div>
               </div>

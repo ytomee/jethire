@@ -4,7 +4,7 @@ import Layout from "../components/Layout/Layout";
 export default function TermsPage() {
   return (
     <Layout>
-      <section className="section-box mt-20">
+      <section className="section-box mt-20 pt-70">
         <div className="container">
           <h1 className="text-3xl font-bold mb-30">Termos e Condições</h1>
 

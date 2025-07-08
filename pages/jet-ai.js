@@ -56,7 +56,7 @@ export default function ChatbotPage() {
 
   return (
     <Layout>
-      <section className="pt-10 pb-10">
+      <section className="pt-70 pb-10">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-12">
@@ -66,7 +66,7 @@ export default function ChatbotPage() {
                   <img style={{ height: "35px", marginBottom: "20px" }} src="assets/imgs/jet-ai/jet-ai.svg" />
                 </div>
                 
-                <div className="chat-window mb-4" style={{ overflowY: "auto", height: "53vh" }}>
+                <div className="chat-window mb-4" style={{ overflowY: "auto", height: "55vh" }}>
                   {messages.map((msg, idx) => (
                     <div
                       key={idx}

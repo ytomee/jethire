@@ -5,13 +5,27 @@ import Layout from "../components/Layout/Layout";
 import CandidatesSlider from "../components/sliders/Candidates";
 import CategoryTab from "../components/elements/CategoryTab";
 import CategorySlider from "../components/sliders/Category";
+import CookieModal from "../components/elements/CookieModal";
+import { useState, useEffect } from "react";
+import { getServerSession } from "next-auth/next";
+import { authOptions } from "./api/auth/[...nextauth]";
 
-export default function Index5() {
+export default function Index5({ hasToken }) {
+
+    const [showModal, setShowModal] = useState(false);
+
+    useEffect(() => {
+        if (!hasToken) {
+        setShowModal(true);
+        }
+    }, [hasToken]);
+
     return (
         <>
             <Layout>
+                {showModal && <CookieModal onClose={() => setShowModal(false)} />}
                 <div>
-                    <section className="section-box mb-70">
+                    <section className="section-box mb-70 pt-50">
                         <div className="banner-hero hero-1 banner-homepage5">
                             <div className="banner-inner">
                                 <div className="row">
@@ -247,4 +261,14 @@ export default function Index5() {
             </Layout>
         </>
     );
+}
+
+export async function getServerSideProps(context) {
+  const session = await getServerSession(context.req, context.res, authOptions);
+
+  return {
+    props: {
+      hasToken: !!session,
+    },
+  };
 }
